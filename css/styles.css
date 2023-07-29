@@ -813,7 +813,7 @@ p, h1,h2,h3,h4,h5,h6{
     transform: translateY(0);
 }
 
-.portfolio-second-link:ficus .portfolio-cover-text {
+.portfolio-second-link:focus .portfolio-cover-text {
     transform: translateY(0);
 }
 
