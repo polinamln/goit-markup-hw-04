@@ -574,7 +574,8 @@ p, h1,h2,h3,h4,h5,h6{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.media-footer-link:hover{
+.media-footer-link:hover,
+.media-footer-link:focus{
     background-color: #31d0aa;
 }
 
@@ -588,6 +589,10 @@ p, h1,h2,h3,h4,h5,h6{
     gap: 16px;
     justify-content: center;
     margin-top: 8px;
+}
+
+.social-icon-footer{
+    fill: var(--cloud);
 }
 
 /* ~-----------------MODAL------------------ */
@@ -713,9 +718,13 @@ p, h1,h2,h3,h4,h5,h6{
     border: 1px solid var(--cornflower, #E7E9FC);
     display: block;
     padding: 12px 24px;
-    transition-property: background-color, box-shadow, border, color;
-    transition-duration: 250ms, 250ms, 250ms, 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1);
+
+    transition: 
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .portfolio-button:hover{
@@ -741,6 +750,20 @@ p, h1,h2,h3,h4,h5,h6{
     background: var(--white, #FFF);
     width: calc((100% - 48px) / 3);
 }
+
+.portfolio-second-link{
+    display: block;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-second-link:hover,
+.portfolio-second-link:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
+}
+
 
 .portfolio-second-items{
     display: flex;
