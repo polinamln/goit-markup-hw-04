@@ -454,11 +454,11 @@ p, h1,h2,h3,h4,h5,h6{
 }
 
 .media-fourts-card{
-
+    padding: 32px 0 32px;
 }
 
 svg{
-    fill:#f4f4fd;
+    fill:var(--cloud);
 }
 
 /* &-----------------5------------------ */
