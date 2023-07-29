@@ -378,6 +378,7 @@ p, h1,h2,h3,h4,h5,h6{
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     text-align: center;
+    padding-top: 32px;
 }
 
 .studio-fourth-p{
@@ -386,6 +387,7 @@ p, h1,h2,h3,h4,h5,h6{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    padding-top: 8px;
 }
 
 .card-text{
@@ -438,6 +440,11 @@ p, h1,h2,h3,h4,h5,h6{
     gap: 24px;
     justify-content: center;
     margin-top: 8px;
+    padding-bottom: 32px;
+}
+
+.media-fourts-card{
+
 }
 
 /* &-----------------5------------------ */
