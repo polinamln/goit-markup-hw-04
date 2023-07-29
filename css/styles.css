@@ -113,9 +113,7 @@ p, h1,h2,h3,h4,h5,h6{
 
 
 
-.navigation-menu-studio,
-.navigation-menu-pirtfolio,
-.navigation-menu-contacts{
+.navigation-menu-studio{
     
     text-decoration: none;
     color: var(--navyblue);
@@ -457,6 +455,10 @@ p, h1,h2,h3,h4,h5,h6{
 
 .media-fourts-card{
 
+}
+
+svg{
+    fill:#f4f4fd;
 }
 
 /* &-----------------5------------------ */
