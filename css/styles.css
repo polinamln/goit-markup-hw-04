@@ -469,7 +469,9 @@ p, h1,h2,h3,h4,h5,h6{
 
 
 .fifth-section-icon{
-    fill: currentColor
+    fill: currentColor;
+    width: 168px;
+    height: 88px;
 }
 
 .fifth-section-link{
@@ -477,7 +479,6 @@ p, h1,h2,h3,h4,h5,h6{
     border-radius: 4px;
     width: 168px;
     height: 88px;
-    flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -506,7 +507,10 @@ p, h1,h2,h3,h4,h5,h6{
     fill: #404BBF;
 }
 
-/* ~-----------------FOOTER------------------ */
+
+
+
+/* ~--------------------FOOTER------------------ */
 
 .studio-footer{
     background-color: var(--grey);
